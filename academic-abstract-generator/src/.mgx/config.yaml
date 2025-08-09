@@ -1,0 +1,5 @@
+build: mkdir -p /workspace/shadcn-ui/academic-abstract-generator/dist && cp -r /workspace/shadcn-ui/academic-abstract-generator/src/*
+  /workspace/shadcn-ui/academic-abstract-generator/dist/
+build_path: /workspace/shadcn-ui/academic-abstract-generator/dist
+dev: echo "Static website, no dev server needed"
+install: echo "No installation needed for pure HTML/CSS/JS"
